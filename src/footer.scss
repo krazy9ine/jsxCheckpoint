@@ -1,0 +1,19 @@
+/* ----- Variables ----- */
+$color-primary: #4c4c4c;
+$color-secondary: #a6a6a6;
+$color-highlight: #ff3f40;
+
+footer {
+	padding: 1em;
+	text-align: center;
+	color: #fff;
+	height: 2%;
+
+	a {
+		color: $color-primary;
+
+		&:hover {
+		color: $color-highlight;
+		}
+	}
+}
